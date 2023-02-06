@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+
+        <title>
+            Chat
+        </title>
+    </head>
+
+    <body style="background-color: #ffffff">
+        <ul id="messages"></ul>
+
+        <form id="form" action="">
+            <input 
+            id="input"
+            autocomplete="off"
+            />
+
+            <button>
+                Send
+            </button>
+        </form>
+
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script src="socket.js"></script>
+    </body>
+</html>
